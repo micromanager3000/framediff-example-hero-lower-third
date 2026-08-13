@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "items": [
     {
       "id": "hero",
@@ -9,6 +9,15 @@
       "content": {
         "type": "nested",
         "composition": "HeroRaw"
+      },
+      "layout": {
+        "rect": [
+          0,
+          0,
+          1920,
+          1080
+        ],
+        "fit": "cover"
       }
     },
     {
@@ -19,6 +28,15 @@
       "content": {
         "type": "nested",
         "composition": "LowerThird"
+      },
+      "layout": {
+        "rect": [
+          0,
+          0,
+          1920,
+          1080
+        ],
+        "fit": "cover"
       }
     },
     {
@@ -29,6 +47,15 @@
       "content": {
         "type": "nested",
         "composition": "EndCard"
+      },
+      "layout": {
+        "rect": [
+          0,
+          0,
+          1920,
+          1080
+        ],
+        "fit": "cover"
       }
     },
     {
@@ -39,6 +66,15 @@
       "content": {
         "type": "nested",
         "composition": "Blah"
+      },
+      "layout": {
+        "rect": [
+          0,
+          0,
+          1920,
+          1080
+        ],
+        "fit": "cover"
       }
     }
   ]
