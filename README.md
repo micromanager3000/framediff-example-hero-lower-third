@@ -1,7 +1,19 @@
 # FrameDiff example · hero with lower-third
 
+## Setup
+
+```sh
+git clone --recurse-submodules https://github.com/micromanager3000/framediff-example-hero-lower-third.git
+cd framediff-example-hero-lower-third
+npm install
+npm run dev
+```
+
+FrameDiff is pinned in `vendor/framediff` until its packages are published to npm. Update the
+pin with `git submodule update --remote vendor/framediff`, then validate and commit the gitlink.
+
 This example opens directly on the complete **HeroWithLowerThird** composition. The separate
-[Studio Playground example](../studio-playground) provides the broader guided acceptance project.
+[Studio Playground example](https://github.com/micromanager3000/framediff-example-studio-playground) provides the broader guided acceptance project.
 
 Reproduces `lt-marketing/out/hero-with-lower-third/hero-with-lower-third.mp4` (1920×1080 @ 23.976,
 1091 frames). The video in `lt-marketing/out/...` is comparison-only; the default composition rebuilds
@@ -66,8 +78,8 @@ are derived only from raw footage, never from the comparison render.
 ## Run
 
 ```sh
-npm install                                   # repo root
-npm run dev --workspace examples/hero-lower-third
+npm install # repository root
+npm run dev
 # opens the main project composition
 # use the composition rail for hero, hero-raw, lower-third, end-card, or hero-script
 ```

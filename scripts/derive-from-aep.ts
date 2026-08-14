@@ -20,7 +20,7 @@ import {
   type AeComp,
   type AeDump,
   type AeLayer,
-} from "../../../packages/framediff/src/ae/aeImport.ts";
+} from "../vendor/framediff/packages/framediff/src/ae/aeImport.ts";
 
 const here = dirname(fileURLToPath(import.meta.url));
 const dump = JSON.parse(readFileSync(join(here, "../ae/aep-dump.json"), "utf8")) as AeDump;
