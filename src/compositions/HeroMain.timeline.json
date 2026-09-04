@@ -57,25 +57,6 @@
         ],
         "fit": "cover"
       }
-    },
-    {
-      "id": "nested-blah",
-      "from": 0,
-      "durationInFrames": 150,
-      "name": "Blah",
-      "content": {
-        "type": "nested",
-        "composition": "Blah"
-      },
-      "layout": {
-        "rect": [
-          0,
-          0,
-          1920,
-          1080
-        ],
-        "fit": "cover"
-      }
     }
   ]
 }
